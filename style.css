@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f4f4f4;
+    padding: 1rem;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .image-gallery img {
+    width: calc(20% - 1rem);
+    height: auto;
+    object-fit: cover;
+  }
+
+  .post {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
